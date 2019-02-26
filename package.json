@@ -1,5 +1,5 @@
 {
-  "name": "attuverrouterreconnect",
+  "name": "attuverserouterreconnect",
   "version": "1.0.0",
   "description": "Reconnects U-verse 5268AC Router to AT&T",
   "main": "reboot.js",
