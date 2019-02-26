@@ -1,8 +1,8 @@
 # Description
 
-This script reconnects your AT&T U-verse router with AT&T. Tested on 5268AC. The 5268AC router has a bug which causes network latency over time (more so when using Gigabit Fiber).   
+Reconnects a U-verse router to AT&T. Tested on 5268AC. This router has a bug that causes network latency over time (more so when using Gigabit Fiber).   
 
-This is a fork of ATT-Uverse-Automated-Router-Rebooter. Use this version if your router is connected to an external battery backup. The original reboot script shuts down the router instead of rebooting.
+This is a fork of ATT-Uverse-Automated-Router-Rebooter. Use this version if the router is connected to an external battery backup. The original reboot script shuts down the router instead of rebooting.
 
 # Usage
 
