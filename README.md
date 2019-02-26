@@ -1,4 +1,4 @@
-# ATT U-verse Router Reconnect Script
+# AT&T U-verse Router Reconnect Script
 
 This script reconnects your AT&T U-verse router with AT&T. Tested on 5268AC. The 5268AC router has a bug which causes network latency over time (more so when using Gigabit Fiber).   
 
