@@ -1,21 +1,21 @@
 {
-  "name": "gigabitrouterreboot",
+  "name": "attuverrouterreconnect",
   "version": "1.0.0",
-  "description": "Reboots 5268AC Router",
+  "description": "Reconnects U-verse 5268AC Router to AT&T",
   "main": "reboot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metekamil/ATT-UVERSE-Rebooter.git"
+    "url": "git+https://github.com/terrisgit/ATT-Uverse-Router-Reconnect.git"
   },
-  "author": "Mete Kamil",
-  "license": "ISC",
+  "author": "Mete Kamil and Terris Linenbach",
+  "license": "GPL 3",
   "bugs": {
-    "url": "https://github.com/metekamil/ATT-UVERSE-Rebooter/issues"
+    "url": "https://github.com/terrisgit/ATT-Uverse-Router-Reconnect/issues"
   },
-  "homepage": "https://github.com/metekamil/ATT-UVERSE-Rebooter#readme",
+  "homepage": "https://github.com/terrisgit/ATT-Uverse-Router-Reconnect#readme",
   "dependencies": {
     "querystring": "^0.2.0",
     "request": "^2.85.0"
