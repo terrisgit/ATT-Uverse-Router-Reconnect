@@ -11,7 +11,7 @@ function RebootRouter() {
 
     var form = {
         "ADM_PASSWORD" : routerAccessCode,
-        "NEXTPAGE" : 'C_5_7' 
+        "NEXTPAGE" : 'A_0_0' 
     };
 
     var formData = querystring.stringify(form);
@@ -41,11 +41,11 @@ function RebootRouter() {
 function doRestart(cookieJar, nonce){
  
     var form = {
-        "RESTART" : 'Reset', 
-        "THISPAGE" : 'C_5_7',
+        "RESET_BB" : 'Restart', 
+        "THISPAGE" : 'A_0_0',
+        "NEXTPAGE" : 'A_0_0_POST',
         "NONCE": nonce, 
-        "BB_TYPE": "DHCP",
-        "WIFI0_EXIST": "TRUE"
+        "CMSKICK": ""
     };
     var formData = querystring.stringify(form);
     var contentLength = formData.length;
@@ -55,7 +55,7 @@ function doRestart(cookieJar, nonce){
         'Content-Length': contentLength,
         'Content-Type': 'application/x-www-form-urlencoded'
         },
-        uri: 'http://' + routerIP + '/xslt?PAGE=C_5_7_POST&NEXTPAGE=C_5_7_POST',
+        uri: 'http://' + routerIP + '/xslt?PAGE=A_0_0_POST&NEXTPAGE=A_0_0_POST',
         jar: cookieJar,
         body: formData,
         method: 'POST'
